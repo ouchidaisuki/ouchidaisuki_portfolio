@@ -7,8 +7,8 @@ export default function Header() {
       <div className={styles.container()}>
         <Link href="/" className={styles.logo()}>MyPortfolio</Link>
         <nav className={styles.nav()}>
-          <Link href="/" className={styles.navItem()}>Work</Link>
-          <Link href="/about" className={styles.navItem()}>About</Link>
+          <Link href="/#works" className={styles.navItem()}>Work</Link>
+          <Link href="/#about" className={styles.navItem()}>About</Link>
         </nav>
       </div>
     </header>
